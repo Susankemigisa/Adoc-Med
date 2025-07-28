@@ -1,0 +1,39 @@
+
+body{
+  background-image: url(../pic/OIP.webp);
+  font-style: italic; color: purple;
+  font-weight: bolder; font-size: x-large;
+}
+.materials-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.materials-section h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  grid-column: span 2;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}

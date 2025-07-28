@@ -1,0 +1,51 @@
+body{
+  text-decoration-thickness: bold;
+  background-size: cover;
+  background-image: url(../pic/room.avif)
+  
+}
+.users-section {
+  max-width: 900px;
+  margin: 40px black;
+  padding: 20px;
+}
+
+.users-section h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 1px solid #100e0e;
+  border-radius: 4px;
+}
+
+form button {
+  grid-column: span 2;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}

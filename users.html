@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Users - MWF</title>
+  <link rel="stylesheet" href="../CSS/users.css">
+</head>
+<body>
+
+  <nav >
+      <button style="border-radius: 20px 10px;background-color: rgb(232, 15, 210);"><a href="index.html">Login</a></button>
+       <button style="border-radius: 20px 10px;background-color: rgb(227, 20, 200);"><a href="products.html">Products</a></button>
+      <button style="border-radius: 20px 10px;background-color: rgb(241, 47, 231);"><a href="dashboard.html">Dashboard</a></button>
+      <button style="border-radius: 20px 10px;background-color: rgb(218, 16, 198);"><a href="suppliers.html">Suppliers</a></button>
+  </nav>
+
+  <section class="users-section">
+    <h2>Company Attendants</h2>
+
+    <table style="border-style: solid black;">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Contact</th>
+          <th>Email</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Achiro Millifer</td>
+          <td>Sales Agent</td>
+          <td>‪+256-700-123456‬</td>
+          <td>alice@mwf.com</td>
+          <td>alice.n</td>
+        </tr>
+        <tr>
+          <td>Odong Denis</td>
+          <td>Stock Recorder</td>
+          <td>‪+256-701-654321‬</td>
+          <td>paul@mwf.com</td>
+          <td>paul.m</td>
+        </tr>
+        <!-- More users can go here -->
+      </tbody>
+    </table>
+
+    <h3>Add New User</h3>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Role">
+      <input type="tel" placeholder="Contact Number">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Username">
+      <button type="submit">Add User</button>
+    </form>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Suppliers - MWF</title>
+  <link rel="stylesheet" href="../CSS/suppliers.css">
+</head>
+<body>
+
+  <nav>
+       <button style="border-radius: 20px 10px;background-color: rgb(238, 8, 211);"><a href="index.html">Login</a></button>
+       <button style="border-radius: 20px 10px;background-color: rgb(228, 15, 174);"><a href="products.html">Products</a></button>
+       <button style="border-radius: 20px 10px;background-color: rgb(228, 15, 203);"><a href="dashboard.html">Dashboard</a></button>
+      <button style="border-radius: 20px 10px;background-color: rgb(235, 7, 197);"> <a href="users.html">Users</a></button>
+  </nav>
+
+  <section class="suppliers-section">
+    <h2>Registered Suppliers</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Supplier Name</th>
+          <th>Location</th>
+          <th>Contact</th>
+          <th>Email</th>
+          <th>Type of Supply</th>
+          <th>Last Delivery Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jinja Forest Co.</td>
+          <td>Jinja, Eastern Uganda</td>
+          <td>‪+256-712-345678‬</td>
+          <td>forestco@jinja.com</td>
+          <td>Hardwood Timber</td>
+          <td>2025-07-18</td>
+        </tr>
+         <!--More suppliers can be listed here-->
+      </tbody>
+    </table>
+
+    <h3>Add New Supplier</h3>
+    <form>
+      <input type="text" placeholder="Supplier Name" required>
+      <input type="text" placeholder="Location">
+      <input type="tel" placeholder="Contact">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Type of Supply">
+      <input type="date" placeholder="Last Delivery Date">
+      <button type="submit">Add Supplier</button>
+    </form>
+  </section>
+
+</body>
+</html>

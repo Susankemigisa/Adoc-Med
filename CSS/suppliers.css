@@ -1,0 +1,49 @@
+body{
+  background-image: url(../pic/wall.jpg);
+
+}
+.suppliers-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.suppliers-section h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  border: 2px solid #1e1919;
+  border-radius: 4px;
+}
+
+form button {
+  grid-column: span 2;
+  background-color: #130e0e;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(192, 162, 125);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 50px 0;
+}
+
+table th, table td {
+  border: 3px solid #0c0a0c;
+  padding: 10px;
+  text-align: left;
+}
